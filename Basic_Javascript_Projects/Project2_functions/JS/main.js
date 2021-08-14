@@ -1,3 +1,4 @@
+/*The code below turns text green that is displayed by a button */
 function My_First_Function()
 {
     var str = "This text is green!";
@@ -5,6 +6,8 @@ function My_First_Function()
     document.getElementById("Green_Text").innerHTML = result;
 }
 
+
+/*The code below displays a concatenated sentence when a paragraph is clicked on*/
 function myFunction()
 {
     var sentence = "I am learning";
