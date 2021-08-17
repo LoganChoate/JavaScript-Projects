@@ -21,3 +21,11 @@ document.write("<br>");
 /**This code displays -infinity */
 document.write(-3E310);
 document.write("<br>");
+
+/**This code uses boolean logic to display true*/
+document.write(100 > 1);
+document.write("<br>");
+
+/**This code uses boolean logic to diplay false*/
+document.write(5 > 50);
+document.wrtite("<br>");
