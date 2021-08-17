@@ -13,3 +13,11 @@ document.write("<br>");
 /**This code demonstrates type coercion */
 document.write("10" + 5);
 document.write("<br>");
+
+/**This code displays +infinity*/
+document.write(2E310);
+document.write("<br>");
+
+/**This code displays -infinity */
+document.write(-3E310);
+document.write("<br>");
