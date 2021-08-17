@@ -1,4 +1,5 @@
-/**This code defines a small dictionary object
+/**This code defines a function that
+ * calls a small dictionary object
  *  and its KVP's */
 function my_Dictionary()
 {
