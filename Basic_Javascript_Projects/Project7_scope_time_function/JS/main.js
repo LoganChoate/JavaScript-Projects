@@ -83,3 +83,26 @@ function Age_Function()
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
+
+/**
+ * This code takes grabs the current time
+ * and displays a message based on that time.
+ */
+function Time_function()
+{
+    var Time = new Date().getHours();
+    var Reply;
+    if(Time <12 == time > 0)
+    {
+        Reply = "It is the morning time!";
+    }
+    else if(Time >= 12 == Time < 18)
+    {
+        Reply = "It is afternoon."
+    }
+    else
+    {
+        Reply = "It is evening time.";
+    }
+    document.getElementById("Time_of_day").innerHTML = Reply;
+}
