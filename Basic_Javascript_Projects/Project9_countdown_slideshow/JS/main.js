@@ -1,0 +1,21 @@
+/**
+ * This code takes an imput numerical value
+ *  an sets a timer based on that input.
+ */
+function countdown()
+{
+    var seconds = document.getElementById("seconds").nodeValue;
+
+    function tick()
+    {
+        seconds = seconds - 1;
+        timer.innerHTML = seconds;
+        var time = setTimeout(tick, 1000);
+        if(seconds == -1)
+        {
+            alert("Time's up!");
+            clearTimeout(time);
+            timer.innerHTML = "";
+        }
+    }
+}
