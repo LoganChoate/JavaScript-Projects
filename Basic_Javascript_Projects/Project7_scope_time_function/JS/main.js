@@ -69,23 +69,19 @@ function get_Date()
  * This code takes numerical input for user age
  * and makes a choice on what to display.
  */
-function Age_Function()
-{
-    Age = document.getElementById("Age").nodeValue;
-    if(Age >= 18)
-    {
+function Age_Function() {
+    Age = document.getElementById("Age").value;
+    if (Age >= 18) {
         Vote = "You are old enough to vote!";
-    
     }
-    else
-    {
+    else {
         Vote = "You are not old enough to vote!";
     }
     document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
 
 /**
- * This code takes grabs the current time
+ * This code takes/grabs the current time
  * and displays a message based on that time.
  */
 function Time_function()
