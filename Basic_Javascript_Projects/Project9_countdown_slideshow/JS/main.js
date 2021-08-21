@@ -4,7 +4,7 @@
  */
 function countdown()
 {
-    var seconds = document.getElementById("seconds").nodeValue;
+    var seconds = document.getElementById("seconds").value;
 
     function tick()
     {
@@ -18,4 +18,5 @@ function countdown()
             timer.innerHTML = "";
         }
     }
+    tick();
 }
