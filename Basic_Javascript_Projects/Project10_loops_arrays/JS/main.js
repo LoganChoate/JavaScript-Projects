@@ -42,3 +42,17 @@ function cat_pics()
     Cat_Picture[3] = "purring";
     document.getElementById("Cat").innerHTML = "In this picture the cat is " + Cat_Picture[2] + ".";
 }
+
+/**
+ * This code creates a constant function,
+ * changes and adds a property, then display them.
+ */
+function constant_function()
+{
+    const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
+    Musical_Instrument.color = "blue";
+    Musical_Instrument.price = "$850";
+    document.getElementById("Constant").innerHTML = "The cost of the "
+     + Musical_Instrument.type + " was "
+      + Musical_Instrument.price + ".";
+}
