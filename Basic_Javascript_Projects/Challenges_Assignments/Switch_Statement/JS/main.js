@@ -4,7 +4,7 @@
  function Color_Function()
  {
      var Color_Output;
-     var Colors = document.getElementById("Color_Input").nodeValue;
+     var Colors = document.getElementById("Color_Input").value;
      var Color_String = " is a great color!";
      switch(Colors)
      {
