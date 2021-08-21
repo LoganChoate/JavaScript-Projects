@@ -74,7 +74,7 @@ function Age_Function()
     Age = document.getElementById("Age").nodeValue;
     if(Age >= 18)
     {
-        Vote = "You are not old enough to vote!";
+        Vote = "You are old enough to vote!";
     
     }
     else
@@ -92,7 +92,7 @@ function Time_function()
 {
     var Time = new Date().getHours();
     var Reply;
-    if(Time <12 == time > 0)
+    if(Time <12 == Time > 0)
     {
         Reply = "It is the morning time!";
     }
