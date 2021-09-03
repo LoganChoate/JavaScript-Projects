@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <hmtl>
     <head>
+        <!--This "script" element links to the JQuery website
+             and thier library of functions that we will be using-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
 
@@ -8,7 +10,10 @@
     <body>
 
     </body>
-
+    <!--The code below defines a function that will run
+         as soon as the document has reached a "ready state".
+        It then redas through and displays the contents. It also changes the 2nd
+    paragraph text color to red and hides test when the 3rd paragraph is clicked.-->
     <script>
         $(document).ready(function(){
             $("html").append(
@@ -30,4 +35,5 @@
                 });
         });
     </script>
+    <!--NOTE: the "$" in jquery is shorthand for accessing/Defining-->
 </hmtl>
