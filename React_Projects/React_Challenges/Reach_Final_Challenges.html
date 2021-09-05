@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Challenges</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./CSS.css">
+
+        <!--This script applies a fade out effect to the page-->
+        <script defer>
+            document.body.classList.add('fade-out');
+
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            })
+        </script>
+        
+    </head>
+
+    <body>
+        <!--Form Element-->
+        <form>
+            <label for="phonenumber">Phone Number:</label><br>
+            <input type="text" id="phonenumber" name="phonenumber" required><br>
+        </form>
+
+        <!--PopUp Form-->
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+        
+
+        <!--This code demonstrates responsive font sizing. -->
+        <h1 style="font-size: 8vw;">Hello World!</h1>
+        <p style="font-size: 2vw;">Resize the browser window to see how the font size scales.</p>
+
+        <!--Horizontal Rule-->
+        <h1>Horizontal Rule</h1>
+        <hr>
+        <p>This is an example of a horizontal rule being used in html.</p>
+    </body>
+</html>
