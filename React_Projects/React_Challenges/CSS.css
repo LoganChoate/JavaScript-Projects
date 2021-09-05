@@ -1,0 +1,45 @@
+/*This code defines the body and the body.fadeout effect*/
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+html {
+    background-color: black;
+}
+
+/*This code defines the animation effects*/
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+/*This code defines a zomming animation*/
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.single-featured-image-header img {
+    animation: zoominoutsinglefeatured 15s forwards;
+}
